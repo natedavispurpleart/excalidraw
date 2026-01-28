@@ -17,3 +17,7 @@ const parseEnvVariables = (filepath) => {
 };
 
 module.exports = { parseEnvVariables };
+module.exports = {
+  ...module.exports,
+  VITE_COLLAB_SERVER_URL: "https://pridra-excalidraw-backend.onrender.com",
+};
